@@ -3,7 +3,7 @@
 
 
  2. Description
-  A sleek, responsive weather dashboard built with pure vanilla JavaScript. It transforms OpenWeather API data into a beautiful glassmorphism UI, complete with dynamic backgrounds, animated Skycons, and a detailed 5-day forecast.
+       A sleek, responsive weather dashboard built with pure vanilla JavaScript. It transforms OpenWeather API data into a beautiful glassmorphism UI, complete with dynamic backgrounds, animated Skycons, and a    detailed 5-day forecast.
 
 
  3. Live Demo Link
@@ -17,27 +17,27 @@
 
 
  6. Core Features
-  * Real-time Weather
-  * Geolocation
-  * 5-Day Forecast (with High/Low)
-  * Dynamic Backgrounds
-  * Unit Conversion (°C/°F)
+      * Real-time Weather
+      * Geolocation
+      * 5-Day Forecast (with High/Low)
+      * Dynamic Backgrounds
+      * Unit Conversion (°C/°F)
   
 
 
  6. Technology Stack
-* JavaScript (ES6+)
-* HTML5
-* CSS3 (Flexbox, Grid)
-* OpenWeather API
-* Skycons
+      * JavaScript (ES6+)
+      * HTML5
+      * CSS3 (Flexbox, Grid)
+      * OpenWeather API
+      * Skycons
 
 
  7. How to Run Locally
-1.  Clone the repository.
-2.  Get an API key from OpenWeather.
-3.  Add the key to `script.js`.
-4.  Open `index.html` in a browser.
+      1.  Clone the repository.
+      2.  Get an API key from OpenWeather.
+      3.  Add the key to `script.js`.
+      4.  Open `index.html` in a browser.
 
 
  8. How it Works (Workflow)
