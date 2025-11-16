@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/darkskyapp/skycons@master/skycons.js"></script>
+</head>
+<body>
+    <div class="weather-dashboard">
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+            <label class="switch">
+                <input type="checkbox" id="unit-toggle">
+                <span class="slider round"></span>
+                <span class="labels" data-on="°F" data-off="°C"></span>
+            </label>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="location-btn" aria-label="Use my location"><i class="fa-solid fa-location-crosshairs"></i></button>
+        </div>
+        
+        <div class="loader hidden" id="loader"></div>
+
+        <div id="weather-result" class="hidden">
+            
+            <div class="current-weather">
+                <h2 id="city-name"></h2>
+                <canvas id="weather-icon" width="100" height="100"></canvas>
+                <p id="temperature"></p>
+                <p id="description"></p>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <div>
+                        <p class="detail-label">Feels Like</p>
+                        <p class="detail-value" id="feels-like"></p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <p class="detail-label">Humidity</p>
+                        <p class="detail-value" id="humidity"></p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p class="detail-label">Wind Speed</p>
+                        <p class="detail-value" id="wind-speed"></p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <div>
+                        <p class="detail-label">Pressure</p>
+                        <p class="detail-value" id="pressure"></p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="forecast-title">5-Day Forecast</h3>
+            <div class="forecast-container" id="forecast-container">
+                </div>
+        </div>
+
+        <p id="error-message" aria-live="polite"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
