@@ -11,11 +11,9 @@
 
 
  4. Screenshot
-    <img width="1920" height="1080" alt="w1" src="https://github.com/user-attachments/assets/48895334-648b-4d08-a59c-6a16af457be9" />
-    <img width="1920" height="1080" alt="w2" src="https://github.com/user-attachments/assets/2c2d0aab-6425-4cbc-88c4-d1ce70d7914d" />
-    <img width="1920" height="1080" alt="w3" src="https://github.com/user-attachments/assets/56941f42-196a-4149-994c-67ad952adb07" />
-
-    
+  <img width="1715" height="979" alt="w1" src="https://github.com/user-attachments/assets/0c703f7e-acdb-4ece-b644-1741a1d8e67c" />
+  <img width="1814" height="900" alt="w2" src="https://github.com/user-attachments/assets/43f1ff89-16cc-423f-8e7f-8b2e433cf2bc" />
+  <img width="1794" height="910" alt="w3" src="https://github.com/user-attachments/assets/eacb24af-b03b-46b5-b577-7f38b337f9da" />
 
 
  6. Core Features
